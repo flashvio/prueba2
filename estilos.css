@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1em;
+    font-weight: 600;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    
+}
+
+button:hover{
+    background-color: rgb(129, 129, 129);
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.color-romano {color: rgb(126, 69, 180);}
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(69, 69, 69);
+    font-size: 1.50em;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    
+
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: 600px;
+    color: rgb(78, 78, 78);
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgb(0,0,0,0.5)),    
+    url(img/foto\ casa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+#somos-romano .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+
+#NuestrosProductos {
+    background-color: rgba(30,30,30,30);
+    color: #fff;
+    text-align: center;
+}
+
+#NuestrosProductos h2{
+    margin-top: 0;
+}
+
+#NuestrosProductos .container {
+    padding: 150px 12px;
+}
+
+#NuestrosProductos p{
+    display: none;
+}
+
+.nuestr-pro{
+    font-size: 1.4em;
+    color: rgb(126, 69, 180)
+}
+#NuestrosProductos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 0 25px;
+    
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgb(0,0,0,0.5)),    
+    url(img/presupuestos.jpg);
+    
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgb(0,0,0,0.5)),    
+    url(img/camion.jpg);    
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgb(0,0,0,0.5)),    
+    url(img/contacto2.jpg);
+    
+}
+
+#caracteristicas .container{
+   text-align: center; 
+   padding: 50px 12px;   
+}
+
+#caracteristicas li{
+    margin: 12px 0px;
+    font-weight: 300px;
+    color: rgb(61, 61, 61);
+}
+
+#final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 20vh;
+    background-color: rgba(30,30,30,30);
+    color: white;
+}
+
+#final button{
+    font-size: 1.0em;
+}
+
+footer{
+    background-color: rgb(126, 69, 180)
+}
+
+footer p{
+    font-size: 1em;
+    margin: 0;
+    padding: 12px;
+    color: rgba(30,30,30,30);
+    font-weight: 350;
+}
+
+footer .container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
